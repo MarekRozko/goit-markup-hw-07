@@ -435,12 +435,7 @@ html {
   font-size: 14px;
   line-height: 1.71;
 }
-.team-list .subtitle {
-  color: var(--title-text-color);
-}
-.team-section {
-  background-color: var(--backgraund-button-and-team-section-color);
-}
+
 /*------------------- Work ---------------------*/
 .work {
   text-align: center;
@@ -527,6 +522,12 @@ html {
   font-size: 16px;
   line-height: 1.2;
   margin-bottom: 16px;
+}
+.team-list .subtitle {
+  color: var(--title-text-color);
+}
+.team-section {
+  background-color: var(--backgraund-button-and-team-section-color);
 }
 /* --------------social-gruop------------------ */
 .social-gruop {
