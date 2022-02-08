@@ -27,13 +27,6 @@
   padding-bottom: 94px;
 }
 
-body {
-  color: #757575;
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
-}
-
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -295,6 +288,13 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+body {
+  color: #757575;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .hed-line {
@@ -853,7 +853,11 @@ summary {
 }
 
 .team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   text-align: center;
+  color: #212121;
   margin-bottom: 50px;
 }
 
