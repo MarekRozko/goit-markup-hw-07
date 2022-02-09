@@ -1,4 +1,4 @@
-.team-section {
+.section {
   @extend %section;
 }
 .container {
@@ -53,7 +53,7 @@
   line-height: 1.2;
   margin-bottom: 16px;
 }
-.team-list .subtitle {
+.team__subtitle {
   color: $title-text-color;
 }
 .team-section {
