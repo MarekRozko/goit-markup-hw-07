@@ -1,7 +1,9 @@
 .benefits__list {
-  @extend %section;
   @extend %container;
   @extend %list;
+}
+.section {
+  @extend %section;
 }
 .benefits__icon {
   width: 70px;
